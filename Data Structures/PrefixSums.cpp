@@ -33,5 +33,8 @@ int main() {
     }
 
     cout << "Successfully calculated prefix sums." << endl;
+
+    cout << "====== PrefixSums Finished ======" << endl
+         << endl;
     return 0;
 }

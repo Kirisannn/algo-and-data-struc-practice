@@ -146,5 +146,8 @@ int main() {
     assert(ht.search(1003) == "");
     cout << "search() functional." << endl;
 
+    cout << "====== HashTable Finished ======" << endl
+         << endl;
+
     return 0;
 }

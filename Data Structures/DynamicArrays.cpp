@@ -22,5 +22,8 @@ int main() {
 
     delete[] dynamicArray;
     dynamicArray = nullptr;
+
+    cout << "====== DynamicArrays Finished ======" << endl
+         << endl;
     return 0;
 }
