@@ -1,6 +1,6 @@
 FLAGS = -std=c++23 -g -Wall -Wextra
 
-all: DynamicArrays HashTable PrefixSums
+all: DynamicArrays HashTable PrefixSums ContainsDuplicate
 
 DynamicArrays:	DynamicArrays.cpp
 	g++ $(FLAGS) -o out/DynamicArrays DynamicArrays.cpp
@@ -14,6 +14,10 @@ HashTable:	HashTable.cpp
 PrefixSums:	PrefixSums.cpp
 	g++ $(FLAGS) -o out/PrefixSums PrefixSums.cpp
 	out/PrefixSums
+
+ContainsDuplicate:	ContainsDuplicate.cpp
+	g++ $(FLAGS) -o out/ContainsDuplicate ContainsDuplicate.cpp
+	out/ContainsDuplicate
 
 clean:
 	rm out/*
