@@ -19,5 +19,9 @@ ContainsDuplicate:	ContainsDuplicate.cpp
 	g++ $(FLAGS) -o out/ContainsDuplicate ContainsDuplicate.cpp
 	out/ContainsDuplicate
 
+ValidAnagram:	ValidAnagram.cpp
+	g++ $(FLAGS) -o out/ValidAnagram ValidAnagram.cpp
+	out/ValidAnagram
+
 clean:
 	rm out/*
