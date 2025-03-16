@@ -23,5 +23,9 @@ ValidAnagram:	ValidAnagram.cpp
 	g++ $(FLAGS) -o out/ValidAnagram ValidAnagram.cpp
 	out/ValidAnagram
 
+TwoSum:	TwoSum.cpp
+	g++ $(FLAGS) -o out/TwoSum TwoSum.cpp
+	out/TwoSum
+
 clean:
 	rm out/*
